@@ -1,7 +1,6 @@
 name: Ping every 15 minutes
 
 on:
-  workflow_dispatch:
   schedule:
     - cron: "*/15 * * * *"
 
